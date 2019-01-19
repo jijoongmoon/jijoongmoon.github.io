@@ -1,1 +1,413 @@
-jijoongmoon
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Jjioong Moon</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        ol { margin: 0 0 32px 17px; }	
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+        desc { font-family: Georgia, Serif; font-style: italic; color: #161616; }
+        descs { font-family: Georgia, Serif; font-style: italic; color: #161616; font-size: 15px;}	
+        descb { font-family: Georgia, Serif; font-weight: bold; font-style: italic; color: #161616; }		
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <img src="images/jijoongmoon.png" alt="Photo of Jijoong Moon" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Jijoong Moon</h1>
+        
+            <p>
+                Phone: <span class="tel">+82-10-3337-2005</span><br />
+                Email: <a class="email" href="mailto:jijoong@gmail.com">jijoong@gmail.com</a>  <a class="email" href="mailto:jijoong.moon@samsung.com">jijoong.moon@samsung.com</a><br />
+		Linkedin: <a class="linkedin" href="www.linkedin.com/in/jijoong.moon">www.linkedin.com/in/jijoong.moon</a><br />
+		Address: 140 GeumHoRo, SungDongGu, Seoul, South Korea
+		
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+              I am a Software Engineer and have been developing System SW for embedded device at Samsung Electronics.
+	      My interests are Parallel Computing, Programming Languages and System SW Frameworks for Neural Network.
+	      Acceleration frameworks for Linear Algebra such as BLAS, LAPACK, LINPACK and etc. are also what I can have fun with.
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Work Experience</dt>
+            <dd>
+              <h2>Samsung Research, Samsung <span>Software Engineer - Seoul, Korea</span></h2>
+	      <descb>NNStreamer Project</descb><h2><span>June 2018-Current</span></h2>
+              <ul>
+		<desc>
+		  NNStreamer is a set of Gstreamer plugins, which allows Gstreamer developers to
+		  adopt neural network models easily. It is opensource project and downloaded from
+		  <a class="nnstreamer" href="https://github.com/nnsuite/nnstreamer">https://github.com/nnsuite/nnstreamer</a>.
+		  I have been a main contributor since the beginning of this project.
+		</desc>
+              </ul>
+
+	      <descb>Developing Tizen Platform for Autonomous Driving</descb><h2><span>May-Jan 2018</span></h2>
+              <ul>
+		<desc>
+		  Developing Tizen Platform for the Autonomous Driving which includes various soft-
+		  ware packages like ROS(Robot OS System) and Neural Network Frameworks(Caffe,tensorflow, etc.).
+		  Used Tizen Build System including OBS(Open Build Service) and package management system.
+		  Successfully finished flight test based on platform
+		</desc>
+              </ul>
+
+	      <descb>NPU(Neural Processing Unit) Compiler Development</descb><h2><span>Mar-Dec 2017</span></h2>
+              <ul>
+		<desc>
+		  NPU Compiler generates binary to execute inference on NPU HW. I developed fron-
+		  tends(parser, optimizer) mainly, which takes neural network framework model,
+		  parses and generates IR Code for each neural network layers. After that, it opti-
+		  mizes for better performance such as removing memory transfer overhead, blocking
+		  technique, etc.. Successfully executed googlenet and other neural net model
+		</desc>
+              </ul>
+
+	      <descb>CheckedC Compiler Development</descb><h2><span>Oct 2016-Feb 2017</span></h2>
+              <ul>
+		<desc>
+		  CheckedC(<a class="checkedc" href="https://github.com/Microsoft/checkedc">
+		    https://github.com/Microsoft/checkedc</a>) is additional C/C++ language specification to make
+		  robust against security attack such as buffer overflow. It was joint
+		  project with Microsoft Research and I was main contributor at Samsung. Most of
+		  work was implementation of language specification using LLVM/CLANG, which was
+		  improved from discussion.
+		</desc>
+              </ul>	      
+            </dd>
+	    
+            <dd>
+              <h2>Mobile Division, Samsung <span>Software Engineer - Seoul, Korea</span></h2>
+	      <descb>On-Device Encryption</descb><h2><span>Oct 2016-Feb 2017</span></h2>
+              <ul>
+		<desc>
+		  I was involved security team and had developed on-device encryption and decryption
+		  system software. It works across whole process from start to end and I developed
+		  system SW to secure keyrings for block devices.
+		</desc>
+              </ul>
+	      <descb>Vulnerability Assessment</descb><h2><span>Mar-Sep 2015</span></h2>
+              <ul>
+		<desc>
+		  Analyze Software including Kernel and boot sequence. Trying to detect potential vulnerabilities
+		  of Mobile Device. Wrote POC code for rooting and demonstrate security
+		  attack. Also apply security patches about known vulnerabilities such as CWE.
+		</desc>
+              </ul>
+	    </dd>
+
+            <dd>
+              <h2>DMC R&amp;D Center, Samsung <span>Software Engineer - Seoul, Korea</span></h2>
+	      <descb>Research of AOT(Ahead of Time) Compiler</descb><h2><span>Jul 2014-Feb 2015</span></h2>
+              <ul>
+		<desc>
+		  Developing AOT Compiler Technique to convert android application to Tizen Application.
+		  Also, looking for way to integrate auto parallelization technique for multicore
+		  into ART (Android Runtime) using LLVM/CLANG. It was pure research project to evaluate the possibility.
+		</desc>
+              </ul>
+	      <descb>Auto Parallelization &amp; Improving OpenMP</descb><h2><span>Jan 2013-June 2014</span></h2>
+              <ul>
+		<desc>
+		  I developed auto parallelization technique based on Alias Analysis for Multi-Core
+		  with LLVM for Embedded Device. OpenMP(Open Multi Procssing) framework which
+		  support 4.0 Specification was improved for low power computing with LLVM/CLANG
+		</desc>
+              </ul>
+	      <descb>Android Application Optimziation with NEON SIMD</descb><h2><span>Aug 2010-May 2011</span></h2>
+              <ul>
+		<desc>
+		  I optimized android application with NEON SIMD and reseach about GPGPU Computing for embedded device.
+		  Developed high performance Image conversion library.
+		</desc>
+              </ul>
+	     </dd>
+            <dd>
+              <h2>College of Engineering, SNU <span>Software Engineer - Seoul, Korea</span></h2>
+	      <descb>Maintainer of Web and Cluster System</descb><h2><span>Jul 2008-Jul 2010</span></h2>
+              <ul>
+		<desc>
+		  I was a maintainer in college of engineering during my study. Developed and Maintained the web service
+		  include HA High Availability) cluster system and HPC (High Performance Computing) for scientific
+		  computation. Tool chain service was included such ad ABAQUS &amp; LS-DYNA. Also I gave lecture about
+		  Diskless clusters and how-to about cluster.
+		</desc>
+              </ul>
+	    </dd>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+              <h2>Seoul National University<span> Seoul, Korea</span></h2>
+	      <descb>Doctor of Philosophy</descb><h2><span>July 2010</span></h2>
+                <p><descb>Major: </descb> <desc>Aerospace Engineering</desc><br />
+                  <descb>Thesis: </descb><desc>"High Velocity Contact-Impact Simulation with Parallel Computing"</desc><br />
+		  <descb>Adviser: </descb><desc>SeungJo Kim</desc>
+		</p>
+	      <descb>Master Degree</descb><h2><span>Feb 2004</span></h2>
+                <p><descb>Major: </descb> <desc>Aerospace Engineering</desc><br />
+                  <descb>Thesis: </descb><desc>"Massive Parallel Computing for Finite Element Method"</desc><br />
+		  <descb>Adviser: </descb><desc>SeungJo Kim</desc>
+		</p>
+            </dd>
+
+            <dd>
+              <h2><i>Research Interests</i> </h2>
+	      <descb>Developing HPC Cluster System</descb>
+              <ul>
+		<desc>
+		  <ul>
+		    <li> 520 CPUs, 1.24 TFlops : Top500 56th in 2003</li>
+		    <li> It was the first cluster system achieved over 1TFlops in Korea.</li>
+		    <li> Accelerate Performance using MPI, OpenMP, OpenCL, GPGPU Computing</li>
+		  </ul>
+		</desc>
+              </ul>
+	      <descb>Research on Parallel Computing Technique for Massive Contact-Impact Problem</descb>
+              <ul>
+		<desc>
+		  <ul>
+		    <li> Developed Parallel Lagrangian-Eulerian Hydrocode with MPI</li>
+		    <li> Numerical Library Acceleration : BLAS, ATLAS, LINPACK, LAPACK, etc.</li>
+		    <li> Develop High Performance Direct/Iterative Solver</li>
+		  </ul>
+		</desc>
+              </ul>
+	      <descb>Research on GRID Computing</descb>
+              <ul>
+		<desc>
+		  <ul>
+		    <li> Developed Departmental Computing GRID System for Structural Analysis</li>
+		  </ul>
+		</desc>
+              </ul>
+	    </dd>
+	    
+            
+            <dd class="clear"></dd>
+            
+            <dt>Publications</dt>
+            <dd>
+              <h2>Peer-Reviewed journal Papers</h2>
+		<ol>
+		  <descs>
+		    <p>
+		    <li>Jijoong Moon, SeungJo Kim, and Minhyung Lee. High velocity impact simulation of
+		    brittle materials with node separation scheme in parallel computing environment.
+		      Computer Modeling in Engineering &amp; Sciences , 59(3):275–300, 2010</li></p>
+		    <p><li>Seung Hoon Paik, Jijoong Moon and SeungJo Kim. Parallel performance of large scale
+			impact simulation on linux cluster super computer. Computers &amp; Structures
+			, 84(10-11):732–741, 2006</li></p>
+		  </descs>
+	      </p>
+	    </dd>
+
+            <dd>
+	      <h2>Peer-Reviewed Conference Papers</h2>
+	      <ol>
+		<descs>
+		  <p><li>
+		      MyungJoo Ham,
+		      Jijoong Moon
+		      , Geunsik Lim, Wook song, Jaeyun Jung, Hyoungjoon
+		      Ahn, Sangjung Woo, Jinhyyuck Park youngchul Cho, Sewon Oh, and Hong-Seok Kim.
+		      Nnstreamer: Stream processing paradigm for neural networks, toward efficient devel-
+		      opment and execution of on-device ai applications. In
+		      USENIX Annual Technical Confer-
+		      ence
+		      , 2019
+		  </li></p>
+		  <p><li>		  
+		  Geunsik Lim, MyungJoo Ham,
+		  Jijoong Moon
+		  , Wook song, Sangjung Woo, and Sewon
+		  Oh. Taos-ci: Lightweight &amp; modular continuous integraion system for edge computing.
+		  In
+		  IEEE International Conference on Consumer Electronics
+		  , 2019
+		  </li></p>		  
+		  <p><li>
+		  Jijoong Moon
+		  , SeungJo Kim, Minhyung Lee, and Yohan Yoo. Optimization for parallel
+		  impact analysis of brittle materials using dynamic load balancing. In
+		  1st Conference on
+		  Agency for Defense Development
+		  , 2009
+		  </li></p>		  
+		  <p><li>
+		  Jijoong Moon
+		  , SeungJo Kim, Minhyung Lee, and Yohan Yoo. Parallelization technique
+		  for high-velocity contact/impact analysis using dynamic load balancing. In
+		  The Korea
+		  Institute of Military Science and Technology
+		  , 2009
+		  </li></p>		  
+		  <p><li>
+		  Casper Adriaan Buizer,
+		  Jijoong Moon
+		  , and SeungJo Kim. Low-velocity impact analysis of
+		  composite material using buffer zone interface of micro/macro modeling. In
+		  Conference
+		  on Korean Society for Composite Materials
+		  , 2009
+		  </li></p>		  
+		  <p><li>
+		  Jijoong Moon
+		  , SeungJo Kim, and Minhyung Lee. High-speed contact/impact simulation
+		  code. In
+		  8th World Congress on Computational Mechanics
+		  , 2008
+		  </li></p>		  
+		  <p><li>
+		  Jijoong Moon
+		  , SeungJo Kim, and Minhyung Lee. Parallel strategies of net3d for high-
+		  speed impact simulation. In
+		  International Conference on Computational &amp; Experimental
+		  Engineering and Sciences
+		  , 2008
+		  </li></p>		  
+		  <p><li>
+		  Jijoong Moon
+		  , SeungJo Kim, and SeungHoon Paik. Parallel performance of ipsap/explicit
+		  for contact-impact simulation. In
+		  9th US National Congress on Computational Mechanics
+		  ,
+		  2007
+		  </li></p>		  
+		  <p><li>
+		  Y. Yoon,
+		  J. Moon
+		  , E. Lee, S. Kim, and J. Kim. Parallel optimal design of satellite bus struc-
+		  tures using particle swam optimization. In
+		  48th AIAA/ASME/ASCE/AHS/ASC Structures,
+		  Structural Dynamics &amp; Materials Conference
+		  , 2007
+		  </li></p>		  
+		  <p><li>
+		  Minhyung Lee, Seung Hoon Paik,
+		  Jijoong Moon
+		  , and SeungJo Kim. Parallel compu-
+		  tation of two-step eulerian scheme on multi-node supercomputers. In
+		  International
+		  Conference on Computational &amp; Experimental Engineering and Sciences
+		  , 2007
+		  </li></p>		  
+		  <p><li>
+		  Min Ki Kim,
+		  Jijoong Moon
+		  , and SeungJo Kim. Wccs: Windows comput cluster server
+		  for hpc and its performance &amp; applications. In
+		  KSIAM Annual Conference
+		  , 2007
+		  </li></p>		  
+		  <p><li>
+		  MinKi Kim,
+		  Jijoong Moon
+		  , and SeungJo Kim. Parallelization and performance evaluation
+		  of contact/impact simulation. In
+		  KSIAM Spring Conference
+		  , 2007
+		  </li></p>
+		  <p><li>
+		  Jin Woo Park, Si Hyoung Park,
+		  Jijoong Moon
+		  , Youngha Yoon, and Seung Jo Kim. High-
+		  fidelity simulation based optimum design utilizing computing grid technology. In
+		  46th
+		  AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics &amp; Materials Conference
+		  , 2006
+		  </li></p>
+		  <p><li>
+		  Jin Woo Park, Si Hyoung Park, In Seong Hwang,
+		  Jijoong Moon
+		  , Youngha Yoon, and
+		  Seung Jo Kim. Optimal blade system design of a new concept vtol vehicle using the
+		  departmental computing grid system. In
+		  Super Computing Conference 2004
+		  , 2004
+		  </li></p>
+		</descs>
+	      </p>
+	    </dd>                                            
+            
+            <dd class="clear"></dd>
+            
+            <dt>Computer Skills</dt>
+            <dd>
+	      <p>
+		<descb>Languages</descb><br />
+		<desc>
+		  C/C++, Python, Java, PHP, Shell Programming, MPI, OpenMP, OpenACC,
+		  OpenCL, CUDA, etc.
+		</desc>
+	      </p>
+	      <p>
+		<descb>Tools</descb></br />
+	      <desc>
+		LLVM/CLANG, Gstreamer, emacs, Build Tools (CMake, Make, meson, etc.)
+		MatLab, LINUX, Git, etc.
+	      </desc>
+	    </p>
+	    <p>
+	      <descb>OpenSources</descb></br />
+	    <desc>
+	      <a class="NNstreamer" href="https://github.com/nnsuite/nnstreamer">https://github.com/nnsuite/nnstreamer</a></br />
+	      <a class="TAOS" href="https://github.com/nnsuite/TAOS-CI">https://github.com/nnsuite/TAOS-CI</a></br />	      
+	      <a class="CheckedC" href="https://github.com/Microsoft/checkedc">https://github.com/Microsoft/checkedc </a></br />
+           </desc>
+          </p>
+          </dd>
+            
+            <!-- <dd class="clear"></dd> -->
+            
+            <!-- <dt>References</dt> -->
+            <!-- <dd>Available on request</dd> -->
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
